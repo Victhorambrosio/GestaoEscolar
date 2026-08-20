@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 
-namespace web.GestaoEscolar.Areas.Identity.Pages.Account
+namespace Web.GestaoEscolar.Areas.Identity.Pages.Account
 {
     public class ResetPasswordModel : PageModel
     {
