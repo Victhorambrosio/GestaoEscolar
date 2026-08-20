@@ -5,5 +5,8 @@ namespace GestaoEscolar;
 
 public class AppDbContext : IdentityDbContext
 {
-    public AppDbContext(DbContextOptions<AppDbContext> options):base(){}
+    public AppDbContext(DbContextOptions<AppDbContext> options):base(options)
+    {
+        
+    }
 }
